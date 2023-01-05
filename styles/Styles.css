@@ -63,7 +63,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
 }
-.info-app, .aplicaciones{
+.info-app, .aplicaciones, .imagesApp{
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -130,11 +130,37 @@ iframe{
 .usuario-app{
     height:500px;
 }
+
 .aplicaciones{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 footer{
     background-color: #001361;
-    height: 500px;
+    height: 300px;
+}
+
+/*images*/
+
+.example{
+    width: 300px;
+}
+
+/*description*/
+
+.pantallaDemo{
+    width: 550px;
+}
+
+li{
+    color: gray;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 45px;
+}
+
+.description{
+    font-size: 25px;
 }
