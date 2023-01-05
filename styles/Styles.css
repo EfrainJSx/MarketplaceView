@@ -104,10 +104,10 @@ nav a:hover{
     color: skyblue;
     text-decoration: none;
 }
-input{
+.button{
     color: white;
     background-color: #052ed4;
-    height: 50px;
+    padding: 20px;
     width: 150px;
     border-radius: 50px;
     border: 0;
@@ -115,12 +115,6 @@ input{
 }
 .titulo-previewer{
     content: center;
-}
-
-.contenedorapps{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
 }
 
 iframe{
