@@ -1,0 +1,140 @@
+/*header */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #001461;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: deepskyblue ;
+    font-size: 20px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/*main*/
+
+.container{
+    display: block;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-app, .aplicaciones{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px;
+    
+}
+
+.logoApp img{
+    width: 450px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.partner-name img{
+    width: 40px;
+    height: 40px;
+}
+
+.price{
+    color: #001361;
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+}
+
+.description, .partner-name{
+    color: gray;
+}
+
+.mensajeria{
+    color: green;
+}
+
+.partner-name{
+    font-size: 10px;
+}
+.partner{
+    font-size: 15px;
+    color: skyblue;
+    text-decoration: none;
+}
+input{
+    color: white;
+    background-color: #052ed4;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 15px;
+}
+.titulo-previewer{
+    content: center;
+}
+
+.contenedorapps{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe{
+    height: 100%;
+}
+
+.usuario-app{
+    height:500px;
+}
+.aplicaciones{
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: #001361;
+    height: 500px;
+}
