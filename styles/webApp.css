@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 main {
   display: flex;
   justify-content: center;
@@ -18,10 +20,13 @@ main {
     width: 400px;
 }
 
+p, h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
 .credentials p{
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
 }
 
 iframe {
