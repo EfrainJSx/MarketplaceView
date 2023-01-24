@@ -17,7 +17,7 @@ main {
 
 .viewApp{
     padding: 10px;
-    width: 380px;
+    width: 370px;
 }
 
 p, h1{
@@ -33,11 +33,15 @@ iframe {
   height: 650px;
   width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.5);
-  border-radius: 20px;
+  transition: transform 0.75s;
 }
 
-.mensajero, .usuario, .admin{
-    border-radius: 30px;
+iframe:hover{
+    transform: scale(1.03);
+}
+
+.mensajero, .usuario, .admin, iframe{
+    border-radius: 20px;
 }
 
 .mensajero:hover, .usuario:hover, .admin:hover{
